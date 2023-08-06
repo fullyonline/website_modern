@@ -1,3 +1,5 @@
-export default function Blog(): JSX.Element{
+import React from 'react';
+
+export default function Blog(){
     return (<p>Blog</p>)
 }
