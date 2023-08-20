@@ -8,10 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor:{
-        'secondary-brown': '#f5f3f2'
+        'secondary-brown': '#f5f3f2'        
       },
       colors:{
         'secondary-brown':  '#f5f3f2',
+        'primary-brown':  '#846855',
         'background-brown': '#e9e4e2'
       },
       backgroundImage: {
