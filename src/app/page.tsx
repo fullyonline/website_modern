@@ -1,15 +1,20 @@
+import Image from 'next/image';
 
 export default function Home() {
-  return (
-    <main className="">
-      <div className='flex h-screen'>
-        <div className='w-1/2 bg-secondary-brown flex-auto h-full'></div>
-        <div className='w-1/2 flex-auto h-full'>
-          <div>
-            
-          </div>
-        </div>
-      </div>
-    </main>
-  )
+    return (
+        <main className="flex flex-col h-5/6">
+            <div className="flex justify-center">
+                <Image
+                    src="/portrait.png"
+                    alt="Picture of R. S."
+                    width={200}
+                    height={200}
+                    style={{ borderRadius: '50%' }}
+                />
+            </div>
+            <div className="flex justify-center">
+                <p className="text-xl">Romano Sabbatella</p>
+            </div>
+        </main>
+    );
 }

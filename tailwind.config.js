@@ -11,7 +11,8 @@ module.exports = {
         'secondary-brown': '#f5f3f2'
       },
       colors:{
-        'secondary-brown': '#f5f3f2'
+        'secondary-brown':  '#f5f3f2',
+        'background-brown': '#e9e4e2'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
