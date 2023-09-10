@@ -15,9 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="de">
             <body className={`h-screen bg-gradient-to-r from-background-brown to-neutral-50`}>
-                <div className="h-16 flex flex-col justify-center">
-                    <Header />
-                </div>
+                <Header />
                 {children}
             </body>
         </html>

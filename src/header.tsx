@@ -1,9 +1,17 @@
 export function Header() {
     return (
-        <div className="bg-red-400 flex flex-row justify-center">
-            <a className="text-xl text-red-600" href="/projects">
-                Projekte
-            </a>
+        <div className="h-16 flex flex-col justify-center">
+            <nav className="flex justify-evenly">
+                <a className="text-xl" href="/">
+                    Home
+                </a>
+                <a className="text-xl" href="/projects">
+                    Projekte
+                </a>
+                <a className="text-xl" href="/impressum">
+                    Impressum
+                </a>
+            </nav>
         </div>
     );
 }
